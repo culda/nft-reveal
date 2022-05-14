@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply bg-stone-200 text-base;
+  }
+  * {
+    -ms-overflow-style: none;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  *:focus {
+    outline: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    border-width: 1px;
+    border-style: none;
+  }
+}
